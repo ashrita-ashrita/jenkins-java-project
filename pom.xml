@@ -44,6 +44,8 @@
 
     <build>
         <plugins>
+
+            <!-- FIX 1: Compiler plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -53,6 +55,14 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+
+            <!-- FIX 2: UPDATED WAR plugin (VERY IMPORTANT) -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
+            </plugin>
+
         </plugins>
     </build>
 
