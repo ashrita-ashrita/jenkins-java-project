@@ -13,7 +13,7 @@
     </nav>
     <div class="background-image"></div>
     <div class="form-wrapper">
-      <h2>WELCOME TO NETFLIX v:1243</h2>
+      <h2>WELCOME TO NETFLIX </h2>
       <form action="#">
         <div class="form-control">
           <input type="text" required />
